@@ -10,4 +10,4 @@ Windows Firewall successfully blocked inbound scan attempts and logged dropped p
 
 ![Firewall Logs](firewall-log.png)
 
-Sample log entries are included in `logs/blocked_scan.log`.
+Sample log entries are included in `blocked_scan.log`.
