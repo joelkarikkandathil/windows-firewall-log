@@ -1,0 +1,11 @@
+# Blocked Port Scan Evidence
+# Source: Kali Linux (WSL2)
+# Tool: Nmap
+# Action: DROP (Windows Firewall)
+# Description: Firewall logs showing blocked inbound TCP scan attempts
+
+
+2026-02-02 01:26:08 DROP TCP 172.xx.xx.xxx 172.xx.xx.x 60346 5432 44 S 4278107839 0 1024 - - - RECEIVE 5944
+2026-02-02 01:26:08 DROP TCP 172.xx.xx.xxx 172.xx.xx.x 60346 139 44 S 4278107839 0 1024 - - - RECEIVE 4
+2026-02-02 01:26:08 DROP TCP 172.xx.xx.xxx 172.xx.xx.x 60346 135 44 S 4278107839 0 1024 - - - RECEIVE 1528
+2026-02-02 01:26:08 DROP TCP 172.xx.xx.xxx 172.xx.xx.x 60346 445 44 S 4278107839 0 1024 - - - RECEIVE 4
